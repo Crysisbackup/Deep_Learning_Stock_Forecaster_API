@@ -1,3 +1,3 @@
-# Stock-_Prediction-_Model
+# Deep_Learning_Stock_Foorecaster_API
 In this particualr code I have designed a stock forecaster based on LSTM(Long Short Term memory). Firstly we import all the packages required and then download the stock data on which we want to predict for upcoming time period.Then we preprocess the data to fit and transform using MinMaxScaler and then we use LSTM which is a neural network suited for time series forecasting.We split the data into training and testing data so that we can the predict the stock prices  by training the model on training data set.
 For the API part, FastAPI has been created and from the previous model script, scaler and model have been loaded also for better results the scaler and model have been trained with max data attainable from YFinance API.
